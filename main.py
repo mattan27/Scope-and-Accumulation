@@ -10,8 +10,8 @@ def exponent(arg1=5, arg2=7):
     accumulator = accumulator * arg1
   return accumulator  
 
-  def square(arg=0):
-    return multiply(arg1=arg, arg2=arg)
+def square(arg=0):
+  return multiply(arg1=arg, arg2=arg)
 
 result = multiply(arg1=5, arg2=7)
 print(result)
